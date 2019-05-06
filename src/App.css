@@ -32,12 +32,16 @@
   cursor: pointer;
 }
 
+.myButton:hover{
+  background: green;
+}
 .myList {
   list-style: none;
+  margin: 10px 0;
 }
 
 .buttonRemove{
-  background: red;
+  background: lightcoral;
   color: white;
   padding: 10px 20px;
   margin: 0 10px;
@@ -46,12 +50,20 @@
   cursor: pointer;
 }
 
+.buttonRemove:hover{
+  background: red;
+}
+
 .buttonEdit{
-  background:orange;
+  background: gold;
   color: white;
   padding: 10px 20px;
   margin: 0 10px;
   border-radius: 2px;
   border: none;
   cursor: pointer;
+}
+
+.buttonEdit:hover{
+  background: orange;
 }
